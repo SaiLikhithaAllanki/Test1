@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Survey Form</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+	<div class="container-fluid" style="padding: 50px">
+          <div class="p-3 mb-2 bg-info text-white text-center">STUDENT SURVEY FORM</div>
+          
+            <form>
+                <div class="form-group row">
+                <label for="fname" class="col-sm-2 col-form-label">First Name:</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" id="fname" name="fanme">
+                </div>
+                </div>
+                <div class="form-group row">
+                    <label for="lname" class="col-sm-2 col-form-label">Last Name:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" id="lname" name="lname"><br>
+                    </div>
+                </div>
+                
+                <div class="form-group row">
+                    <label for="streetaddress1" class="col-sm-2 col-form-label">Address Line 1:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" id="streetaddress1" name="streetaddress1"><br>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="streetaddress2" class="col-sm-2 col-form-label">Address Line 2:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" id="streetaddress2" name="streetaddress2" placeholder="Apartment, Studio or Floor"><br>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label type="city" class="col-sm-2 col-form-label">City:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" id="city" name="city"><br>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="state" class="col-sm-2 col-form-label">State:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" id="state" name="state"><br>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="zip" class="col-sm-2 col-form-label">Zip:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="number" id="zip" name="zip"><br>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="phonenumber" class="col-sm-2 col-form-label">Phone Number:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="number" id="phonenumber" name="phonenumber"><br>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-sm-2 col-form-label">Email:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" id="email" name="email"><br>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        
+                    </div>
+                </div>
+                <fieldset class="form-group">
+                    <div class="row">
+                      <legend class="col-form-label col-sm-2 pt-0">What you liked most about the campus?</legend>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" >
+                          <label class="form-check-label" for="gridRadios1">
+                            Students
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                          <label class="form-check-label" for="gridRadios2">
+                            Location
+                          </label>
+                        </div>
+                        <div class="form-check disabled">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" >
+                          <label class="form-check-label" for="gridRadios3">
+                            Campus
+                          </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4" >
+                            <label class="form-check-label" for="gridRadios4">
+                              Atmosphere
+                            </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5" >
+                            <label class="form-check-label" for="gridRadios">
+                              Dorm Rooms
+                            </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios6" value="option6" >
+                            <label class="form-check-label" for="gridRadios6">
+                              Sports
+                            </label>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <div class="form-group row">
+                    <div class="col-sm-2">You are interested in this University because:</div>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" value="">
+                        <label class="form-check-label" for="gridCheck1">
+                          Friends
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck2">
+                        <label class="form-check-label" for="gridCheck2">
+                          Television
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck3">
+                        <label class="form-check-label" for="gridCheck3">
+                          Internet
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck4">
+                        <label class="form-check-label" for="gridCheck4">
+                          Other
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    
+                    <label class="col-sm-2" for="exampleFormControlSelect1">How likely you are to recommend this University to other students:</label>
+                    <select class="form-control col-sm-10" id="exampleFormControlSelect1">
+                      <option>Very Likely</option>
+                      <option>Likely</option>
+                      <option>Unlikely</option>
+                      
+                    </select>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-2" for="textarea1">Raffle Text Area:</label>
+                    <textarea class="form-control col-sm-10" id="textarea1" rows="3"></textarea>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-2" for="textarea1">Additional Comments:</label>
+                    <textarea class="form-control col-sm-10" id="textarea1" rows="3"></textarea>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-sm-10">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                      <button type="submit" class="btn btn-primary">Cancel</button>
+                    </div>
+                  </div>
+            </form>
+
+        </div>
+	
+</body>
+</html>
